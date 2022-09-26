@@ -8,10 +8,10 @@ pipeline {
                     git url: 'https://github.com/Bangaruyogi77/dockerjenkins-demo.git'
                 }
             }
-            stage('Build Docker Image') {  
-                steps{                     
-                   bat 'docker-compose up'   
+           stage('Build docker image') {
+                steps {
+                    script {
+                        bat 'docker-compose up'
                     }
                 }
             }
-}
