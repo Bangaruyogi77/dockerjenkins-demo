@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Source') {
                 steps {
-                    git url: 'https://github.com/Manibharathi7/springboot.git'
+                    git url: 'https://github.com/Bangaruyogi77/dockerjenkins-demo.git'
                 }
             }
             stage('Build Docker Image') {  
