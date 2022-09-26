@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Source') {
                 steps {
-                    git url: 'https://github.com/SushmithaNayak23/SpringBuildDockerImage.git'
+                    git url: 'https://github.com/Bangaruyogi77/dockerjenkins-demo.git'
                 }
             }
             
